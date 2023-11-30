@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+ /* ------------------------------------------- Header nav --------------------------------------------------- */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    align-items: center;
+    background:white;
+}
+.header .logo img{
+    height: 80px;
+    margin:10px 20px;
+}
+.icons .sub{
+    display: inline-block;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+
+}
+.icons .sub:hover{
+    background:linear-gradient( rgba(255,255,255,0.8) 47%, rgba(0,212,255,.2) 100%);
+}
+.fas, .fa-hospital{
+    color: teal;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+ /* ------------------------------------------- Corona nav --------------------------------------------------- */
+.corona{
+    width: 100%;
+    background-color: rgb(219, 58, 30);
+    text-align: center;
+}
+.corona p{
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 150px;
+    color: white;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 8px 10px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 20px 7px;
+    border-radius: 8px;
+    border: 0;
+}
+button:hover{
+    background-color: rgb(128, 0, 0);
+    color: white;
+}
+.donate{
+background-color: yellow;
+}
+.donate:hover{
+    background-color: orange;
+}
+ /* ------------------------------------------- Section1 --------------------------------------------------- */
+.section1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation:slide 10s infinite linear;
+}
+.headi::before{
+    content: "";
+    animation:slideName 10s infinite linear;
+}
+.headi2::before{
+    animation:slideName2 10s infinite linear;
+    content: "";
+}
+.para::before{
+    content: "Organised by";
+}
+.para2::before{
+    content: "Health Logo";
+}
+@keyframes slide {
+    0%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/vaction.jpg);
+        
+    }
+    55%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/mainbanner01.jpg);
+    }
+    100%{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/health\ workers.jpg);
+    }
+}
+@keyframes slideName {
+    0%{
+        content: "Free Health";
+        
+    }
+    55%{
+        content:"Building a Just and";
+    }
+    100%{
+        content: "Respect to our";
+    }
+}
+@keyframes slideName2 {
+    0%{
+        content: "check-up";
+        
+    }
+    55%{
+        content:"Healthy Society ...";
+    }
+    100%{
+        content: "corona warriors...";
+    }
+}
+
+
+.section1 h2{
+    font-size: 68px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px black;
+    color: #fff;
+}
+.section1 p{
+    color: #fff;
+    padding: 8px;
+}
+ /* ------------------------------------------- Section2 --------------------------------------------------- */
+.section2{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/doc-group.png.png);
+    background-size: cover;
+    background-color: rgb(226, 226, 226);
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+.section2 h1{
+    font-size: 48px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0;
+    padding-top: 100px;
+    color: #2f3753;
+}
+ /* ------------------------------------------- Section3 --------------------------------------------------- */
+.section3{
+    text-align: center;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+}
+.line{
+    margin-bottom: 30px;
+    height: 2px;
+    width: 60px;
+    background: rgb(211, 80, 28);
+}
+.section3 h1{
+    font-size: 48px;
+    padding: 30px 0;
+}
+.publication{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: white;
+    line-height: 18px;
+}
+.publication h2{
+    padding-top: 80px;
+}
+.pub1,.pub2,.pub3{
+    background-size: cover;
+    width: 30%;
+    height: 240px;
+}
+.pub1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/hospital-building.jpg);
+}
+.pub2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/F1.large.jpg);
+}
+.pub3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/report.jpg);;
+}
+ /* ------------------------------------------- Section4 --------------------------------------------------- */
+.section4{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section4::after{
+    content: "";
+    background-image: linear-gradient(rgba(24, 21, 54, 0.8),rgba(23, 21, 53, 0.8)),url(../img/speaker-talk-11Oct2018.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.section4 h1{
+    font-size: 68px;
+    color: white;
+    padding: 10px;
+}
+.section4 p{
+    color: #fff;
+    padding: 8px;
+    font-family: sans-serif;
+    font-weight:lighter;
+    line-height: 18px;
+    text-align: center;
+    padding: 30px;
+}
+/* ------------------------------------------- Counts --------------------------------------------------- -->*/
+.counts{
+    width: 100%;
+    padding: 0 10%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: rgb(252, 95, 41);
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.counts h1{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    color:rgb(248, 215, 31);
+}
+.cbox h1{
+    display: inline-block;
+}
+ /* ------------------------------------------- Footer --------------------------------------------------- */
+.foot1{
+    width: 100%;
+    padding: 30px 15%;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    color: #c1c5d0;
+    background: #2a2c35;
+    line-height: 22px;
+}
+.foot1 h3{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    color: white;
+}
+.foot1 .num{
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.foot1 p{
+    display: inline-block;
+}
+.fa-mobile-alt,.fa-phone,.fa-map-marker-alt,.fa-envelope{
+    color: #c1c5d0;
+    font-size: 16px;
+    padding-right:10px ;
+    display: inline-block;
+}
+.fa-map-marker-alt{
+    position: relative;
+    top: -20px;
+}
+.foot2{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+.num:hover,.tel:hover,.address:hover,.mail:hover{
+    color: white;
+}
+.subfoot2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.fa-facebook,.fa-instagram-square,.fa-twitter,.fa-linkedin-in{
+    padding: 10px;
+    font-size: 25px;
+    color: #c1c5d0;
+}
+.fa-facebook:hover,.fa-instagram-square:hover,.fa-twitter:hover,.fa-linkedin-in:hover{
+    color: white;
+}

@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+ /* ------------------------------------------- Header nav --------------------------------------------------- */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    align-items: center;
+    background:white;
+}
+.header .logo img{
+    height: 80px;
+    margin:10px 20px;
+}
+.icons .sub{
+    display: inline-block;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+
+}
+.icons .sub:hover{
+    background:linear-gradient( rgba(255,255,255,0.8) 47%, rgba(0,212,255,.2) 100%);
+}
+.fas, .fa-hospital{
+    color: teal;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+ /* ------------------------------------------- Corona nav --------------------------------------------------- */
+.corona{
+    width: 100%;
+    background-color: rgb(219, 58, 30);
+    text-align: center;
+}
+.corona p{
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 150px;
+    color: white;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 8px 10px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 20px 7px;
+    border-radius: 8px;
+    border: 0;
+}
+button:hover{
+    background-color: rgb(128, 0, 0);
+    color: white;
+}
+.donate{
+background-color: yellow;
+}
+.donate:hover{
+    background-color: orange;
+}
+.section{
+    padding: 10px 15%;
+    box-sizing: border-box;
+}
+.section p{
+    margin: 30px 0;
+    line-height: 20px;
+}
+.section h1{
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: teal;
+}
+.section h2{
+    padding-bottom: 10px;
+}
+.section li{
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+.secDonate{
+    background-color: red;
+    position: relative;
+    left: 50%;
+    padding: 18px 48px;
+    color: white;
+    font-size: 18px;
+    
+}
+ /* ------------------------------------------- Footer --------------------------------------------------- */
+ .foot1{
+    width: 100%;
+    padding: 30px 15%;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    color: #c1c5d0;
+    background: #2a2c35;
+    line-height: 22px;
+}
+.foot1 h3{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    color: white;
+}
+.foot1 .num{
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.foot1 p{
+    display: inline-block;
+}
+.fa-mobile-alt,.fa-phone,.fa-map-marker-alt,.fa-envelope{
+    color: #c1c5d0;
+    font-size: 16px;
+    padding-right:10px ;
+    display: inline-block;
+}
+.fa-map-marker-alt{
+    position: relative;
+    top: -20px;
+}
+.foot2{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+.num:hover,.tel:hover,.address:hover,.mail:hover{
+    color: white;
+}
+.subfoot2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.fa-facebook,.fa-instagram-square,.fa-twitter,.fa-linkedin-in{
+    padding: 10px;
+    font-size: 25px;
+    color: #c1c5d0;
+}
+.fa-facebook:hover,.fa-instagram-square:hover,.fa-twitter:hover,.fa-linkedin-in:hover{
+    color: white;
+}

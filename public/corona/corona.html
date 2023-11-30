@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="donationStyle.css">
+    <script src="https://kit.fontawesome.com/e8dcaa89d1.js" crossorigin="anonymous"></script>
+    <title>HLLI | Donation</title>
+</head>
+<body>
+    <div class="container">
+        <!-- ------------------------------------------- header nav --------------------------------------------------- -->
+        <nav class="header">
+            <div class="logo">
+                <a href="../"><img src="../img/logo.png" alt=""></a>
+            </div>
+            <div class="icons">
+                <a href="../appointment.html"><div class="sub"><i class="fas fa-calendar-alt"></i><br> <p>Book <br> Appoinment</p></div></a>
+                <a href="../hospitals.html"><div class="sub"><i class="fas fa-hospital"></i> <br><p>Find <br> Hospital</p></div></a>
+                <a href="../consult.html"><div class="sub"><i class="fas fa-user-md"></i><br><p>Consult <br> Online</p></div></a>
+                <a href="../speciality.html"><div class="sub"><i class="fas fa-pills"></i><br><p>view <br> speciality</p></div></a>
+                
+            </div>
+        </nav>
+<!-- ------------------------------------------- Corona nav --------------------------------------------------- -->
+        <div class="corona">
+            <p>Join Us In This Fight Against Covid-19</p>
+            <a href="ReadMore.html"><button>Read More</button></a>
+            <a href="membership.html"><button>Member Institution</button></a>
+            <a href="corona.html"><button class="donate">Donate Us</button></a>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h1>Thank you For your support!</h1>
+                <h1>Together, we make a difference</h1>
+            </div>
+            
+            <div class="form">
+                <form action="/donation" method="POST">
+                    <h2>Contact Details</h2>
+                    <input type="text" name="name" placeholder="Full Name *" required>
+                    <input type="number" name="phone" id="" placeholder="Phone  *" required>
+                    <input type="email" name="email" id="" placeholder="E-mail *" required>
+                    <h2>Address</h2>
+                    <input type="text" name="add1" placeholder="Address Line 1">
+                    <input type="text" name="add2" placeholder="Address Line 2">
+                    <div class="half">
+                        <input type="text" name="city" placeholder="City">
+                        <input type="text" name="state" placeholder="State">
+                        <input type="number" name="pin" placeholder="Pin code">
+                        <input type="text" name="country" placeholder="Country">
+                    </div>
+                    <select name="purpose" id="">
+                        <option value="">--- Purpose ---</option>
+                        <option value="General">General</option>
+                        <option value="Covid-19">Covid-19</option>
+                        <option value="Support LP hospitals">Support LP hospitals</option>
+                    </select>
+                    <input type="number" name="amount" id="" placeholder="Amount *" required>
+                    <fieldset>
+                        <legend>Do you Want certificate</legend>
+                        <p>Yes</p>
+                        <input type="radio" name="certificate" value="Yes" id=""><br>
+                        <p>No</p>
+                        <input type="radio" name="certificate" value="No" id="">
+                    </fieldset>
+                    <input type="submit" value="Pay Now" placeholder="Pay Now">
+                </form>
+            </div>
+        </div>
+        
+        <!-- ------------------------------------------- footer --------------------------------------------------- -->
+        <div class="footer">
+            <div class="foot1">
+                <div class="subfoot1">
+                    <h3>Head Quarters</h3>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i><p>CMAI <br>
+                            A-3, Local Shopping Centre, Janakpuri, <br>
+                            New Delhi - 110058, India</p>
+                    </div>
+                    
+                    <div class="num">
+                        <i class="fas fa-mobile-alt"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="tel">
+                        <i class="fas fa-phone"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="mail">
+                        <i class="fas fa-envelope"></i><p>cmai@cmai.org</p>
+                    </div>
+                </div>
+                <div class="subfoot1">
+                    <h3>Bangalore Office</h3>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i><p>HVS Court, 3rd Floor <br>
+                            21 Cunningham Road<br>
+                            Bangalore – 560052,<br>
+                            Karnataka</p>
+                    </div>
+                    
+                    <div class="num">
+                        <i class="fas fa-mobile-alt"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="tel">
+                        <i class="fas fa-phone"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="mail">
+                        <i class="fas fa-envelope"></i><p>
+                            cmaiblr@cmai.org</p>
+                    </div>
+                </div>
+                <div class="subfoot1">
+                    <h3>Registered Office</h3>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i><p>CMAI<br>
+                            Christian Council Campus<br>
+                            NCCI Road, Civil Lines<br>
+                            Nagpur – 440001<br>
+                            Maharashtra</p>
+                    </div>
+                    
+                    <div class="num">
+                        <i class="fas fa-mobile-alt"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="tel">
+                        <i class="fas fa-phone"></i> <p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="mail">
+                        <i class="fas fa-envelope"></i><p>cmai@cmai.org</p>
+                    </div>
+                </div>
+                <div class="subfoot2">
+                    <h3>social Links</h3>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram-square"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    
+                </div>
+            </div>
+            <div class="foot2">
+                <p>© 2020 Christian Medical Association of India. All rights reserved.</p>
+                <p>Site by Naulak Web Design.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

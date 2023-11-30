@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/appstyle.css">
+    <script src="https://kit.fontawesome.com/e8dcaa89d1.js" crossorigin="anonymous"></script>
+    <title>HLLI | Appoinment</title>
+</head>
+<body>
+    <div class="container">
+        <!-- ------------------------------------------- header nav --------------------------------------------------- -->
+        <nav class="header">
+            <div class="logo">
+                <a href="/"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="icons">
+                <a href="appointment.html"><div class="sub"><i class="fas fa-calendar-alt"></i><br> <p>Book <br> Appoinment</p></div></a>
+                <a href="hospitals.html"><div class="sub"><i class="fas fa-hospital"></i> <br><p>Find <br> Hospital</p></div></a>
+                <a href="consult.html"><div class="sub"><i class="fas fa-user-md"></i><br><p>Consult <br> Online</p></div></a>
+                <a href="speciality.html"><div class="sub"><i class="fas fa-pills"></i><br><p>view <br> speciality</p></div></a>
+                
+            </div>
+        </nav>
+        <div class="section">
+            <h1>Meet The World’s Best Doctors <br> From Anywhere In The World</h1>
+            <div class="form">
+                <form action="/appoinment" method="POST">
+                    <h2>Book Appoinment</h2>
+                    <i class="fas fa-check-circle"></i>
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <div class="half">
+                    <input type="number" name="phone" id="" placeholder="Phone " required>
+                    <input type="email" name="email" id="" placeholder="E-mail" required>
+                    </div>
+                    <div class="half">
+                    <select name="city" id="">
+                        <option value="">--- Select City ---</option>
+                        <option value="chandigarh">Chandigarh</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="kolkata">Kolkata</option>
+                        <option value="bangalore">Bangalore</option>
+                    </select>
+                    <select name="speciality" id="">
+                        <option value="">--- Select speciality ---</option>
+                        <option value="cardiologist">Cardiologist</option>
+                        <option value="dentist">Dentist</option>
+                        <option value="psychiatrist">Psychiatrist</option>
+                        <option value="pediatrician">Pediatrician</option>
+                        <option value="gastroenterologist">Gastroenterologist</option>
+                    </select>
+                    </div>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        
+         <!-- ------------------------------------------- footer --------------------------------------------------- -->
+         <div class="footer">
+            <div class="foot1">
+                <div class="subfoot1">
+                    <h3>Head Quarters</h3>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i><p>CMAI <br>
+                            A-3, Local Shopping Centre, Janakpuri, <br>
+                            New Delhi - 110058, India</p>
+                    </div>
+                    
+                    <div class="num">
+                        <i class="fas fa-mobile-alt"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="tel">
+                        <i class="fas fa-phone"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="mail">
+                        <i class="fas fa-envelope"></i><p>cmai@cmai.org</p>
+                    </div>
+                </div>
+                <div class="subfoot1">
+                    <h3>Bangalore Office</h3>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i><p>HVS Court, 3rd Floor <br>
+                            21 Cunningham Road<br>
+                            Bangalore – 560052,<br>
+                            Karnataka</p>
+                    </div>
+                    
+                    <div class="num">
+                        <i class="fas fa-mobile-alt"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="tel">
+                        <i class="fas fa-phone"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="mail">
+                        <i class="fas fa-envelope"></i><p>
+                            cmaiblr@cmai.org</p>
+                    </div>
+                </div>
+                <div class="subfoot1">
+                    <h3>Registered Office</h3>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i><p>CMAI<br>
+                            Christian Council Campus<br>
+                            NCCI Road, Civil Lines<br>
+                            Nagpur – 440001<br>
+                            Maharashtra</p>
+                    </div>
+                    
+                    <div class="num">
+                        <i class="fas fa-mobile-alt"></i><p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="tel">
+                        <i class="fas fa-phone"></i> <p>+91-11-255 9999 1/2/3</p>
+                    </div>
+                    <div class="mail">
+                        <i class="fas fa-envelope"></i><p>cmai@cmai.org</p>
+                    </div>
+                </div>
+                <div class="subfoot2">
+                    <h3>social Links</h3>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram-square"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    
+                </div>
+            </div>
+            <div class="foot2">
+                <p>© 2021 Demo Hospital. Association of India. All rights reserved.</p>
+                <p>Site by: Bhanu Web Design.</p>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        function fun(){
+            alert("form submitted");
+        }
+    </script> -->
+</body>
+</html>

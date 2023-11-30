@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+ /* ------------------------------------------- Header nav --------------------------------------------------- */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    align-items: center;
+    background:white;
+}
+.header .logo img{
+    height: 80px;
+    margin:10px 20px;
+}
+.icons .sub{
+    display: inline-block;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+
+}
+.icons .sub:hover{
+    background:linear-gradient( rgba(255,255,255,0.8) 47%, rgba(0,212,255,.2) 100%);
+}
+.fas, .fa-hospital{
+    color: teal;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.banner{
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/special2.jpg);
+    background-size: cover;
+}
+.banner h1{
+    padding-top: 100px;
+    padding-left: 200px;
+    word-spacing: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+}
+.section{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    /* background: rgb(236, 227, 203); */
+}
+.right-col{
+    flex-basis: 67%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.box{
+    display: none;
+}
+.box img{
+    width: 100%;
+    height: 50vh;
+}
+#heartBox{
+    display: block;
+}
+#heart{
+    background-color: rgb(135, 216, 222);
+}
+.left-col{
+    flex-basis: 28%;
+}
+button{
+    width: 80%;
+    padding: 15px ;
+    padding-left: 40px;
+    background-color: rgb(230, 228, 228);
+   border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    transition: 0.5s;
+    margin:2px 0 0 100px;
+    text-align: left;
+    box-sizing: border-box;
+
+}
+button:hover {
+    background: rgb(135, 216, 222) !important;
+}
+.box h1{
+    padding: 7px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(240, 164, 94);
+    display: inline-block;
+}
+.box p{
+    padding-bottom: 15px;
+    
+    font-size: 14px;
+    line-height: 18px;
+}
+.box h2{
+    padding-top: 10px;
+    border-top: 1px solid rgb(192, 188, 188);
+}
+.box li{
+    list-style: url(https://cdn.apollohospitals.com/dev-apollohospitals/assets/images/icons/i-border-check.svg);
+    padding: 25px 5px;
+    border-bottom: 1px solid lightgray;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 10px;
+}
+
+.fa-heartbeat, .fa-brain,.fa-lungs,.fa-ribbon,.fa-virus-slash{
+    font-size: 16px;
+    color: black;
+    padding-right: 10px;
+}
+/* ------------------------------------------- Footer --------------------------------------------------- */
+.foot1{
+    width: 100%;
+    padding: 30px 15%;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    color: #c1c5d0;
+    background: #2a2c35;
+    line-height: 22px;
+}
+.foot1 h3{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    color: white;
+}
+.foot1 .num{
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.foot1 p{
+    display: inline-block;
+}
+.fa-mobile-alt,.fa-phone,.fa-map-marker-alt,.fa-envelope{
+    color: #c1c5d0;
+    font-size: 16px;
+    padding-right:10px ;
+    display: inline-block;
+}
+.fa-map-marker-alt{
+    position: relative;
+    top: -20px;
+}
+.foot2{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+.num:hover,.tel:hover,.address:hover,.mail:hover{
+    color: white;
+}
+.subfoot2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.fa-facebook,.fa-instagram-square,.fa-twitter,.fa-linkedin-in{
+    padding: 10px;
+    font-size: 25px;
+    color: #c1c5d0;
+}
+.fa-facebook:hover,.fa-instagram-square:hover,.fa-twitter:hover,.fa-linkedin-in:hover{
+    color: white;
+}

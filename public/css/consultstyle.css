@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+ /* ------------------------------------------- Header nav --------------------------------------------------- */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    align-items: center;
+    background:white;
+}
+.header .logo img{
+    height: 80px;
+    margin:10px 20px;
+}
+.icons .sub{
+    display: inline-block;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+
+}
+.icons .sub:hover{
+    background:linear-gradient( rgba(255,255,255,0.8) 47%, rgba(0,212,255,.2) 100%);
+}
+.fas, .fa-hospital{
+    color: teal;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.section{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(rgb(255, 255, 255),rgb(208, 222, 230,0.8)),url(../img/bg-image1.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+.section img{
+    height: 60vh;
+    padding-left: 150px;
+}
+.left,.right{
+    flex-basis: 50%;
+    padding: 10px 10px;
+
+}
+.left{
+    padding-left: 200px;
+    box-sizing: border-box;
+}
+.left li{
+    padding: 10px;
+}
+
+.form{
+    width: 80%;
+    margin:0 auto;
+    padding: 10px 20px;
+    background-color: rgb(0, 146, 151);
+    box-sizing: border-box;
+    box-shadow: 0 0 4px rgb(66, 65, 65);
+    position: relative;
+}
+.form h2{
+    padding: 15px 0 15px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+.fa-check-circle{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: rgb(0, 146, 151);
+    position:absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+input,select{
+    width: 95%;
+    padding: 8px;
+    margin: 5px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 0;
+    padding: 10px;
+}
+option{
+    font-size: 15px;
+}
+input[type="submit"]{
+    background-color: rgb(252, 133, 22);
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(150, 91, 36);
+}
+.half{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px 0;
+}
+.half input,select{
+    width: 46%;
+    
+}
+/* ------------------------------------------- Footer --------------------------------------------------- */
+.foot1{
+    width: 100%;
+    padding: 30px 15%;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    color: #c1c5d0;
+    background: #2a2c35;
+    line-height: 22px;
+}
+.foot1 h3{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    color: white;
+}
+.foot1 .num{
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.foot1 p{
+    display: inline-block;
+}
+.fa-mobile-alt,.fa-phone,.fa-map-marker-alt,.fa-envelope{
+    color: #c1c5d0;
+    font-size: 16px;
+    padding-right:10px ;
+    display: inline-block;
+}
+.fa-map-marker-alt{
+    position: relative;
+    top: -20px;
+}
+.foot2{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+.num:hover,.tel:hover,.address:hover,.mail:hover{
+    color: white;
+}
+.subfoot2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.fa-facebook,.fa-instagram-square,.fa-twitter,.fa-linkedin-in{
+    padding: 10px;
+    font-size: 25px;
+    color: #c1c5d0;
+}
+.fa-facebook:hover,.fa-instagram-square:hover,.fa-twitter:hover,.fa-linkedin-in:hover{
+    color: white;
+}
